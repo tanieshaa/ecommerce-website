@@ -1,0 +1,42 @@
+.item {
+  width: 18rem;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.item p {
+  width: 14rem;
+  margin: 12px 0px;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.prices {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.new-price,
+.old-price {
+  font-size: 1.2rem;
+}
+
+.new-price {
+  font-weight: 600;
+  color: black;
+}
+
+.old-price {
+  font-weight: 500;
+  color: #a9a9a9;
+  text-decoration: line-through;
+}
